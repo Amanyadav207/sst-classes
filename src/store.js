@@ -53,6 +53,7 @@ function cartReducer(state= { items: {}}, action) {
     default:
       return state;
   }
+  console.log(store);
 }
 
 
